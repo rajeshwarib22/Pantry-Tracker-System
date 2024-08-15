@@ -1,0 +1,44 @@
+/* Style for the navbar container */
+.navbar {
+  background-color: #343a40; /* Dark background for the navbar */
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+/* Style for the navbar header */
+.navbar-header {
+  color: #ffffff; /* White text color for the header */
+  font-size: 20px; /* Larger font size for the header */
+  padding: 15px 20px; /* Padding around the header */
+}
+
+/* Style for the navbar list items */
+.navbar-nav {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for the navbar links and buttons */
+.navbar-nav li {
+  display: inline-block;
+}
+
+/* Style for the logout button */
+.btn-logout {
+  background-color: grey; /* Red background for the logout button */
+  border: none;
+  color: white; /* White text color for the button */
+  padding: 10px 15px; /* Padding inside the button */
+  border-radius: 5px; /* Rounded corners for the button */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size for the button text */
+}
+
+.btn-logout:hover {
+  background-color: grey; /* Darker red on hover */
+}
+
+/* Style for the glyphicon */
+.glyphicon-log-in {
+  margin-right: 5px; /* Space between icon and text */
+}

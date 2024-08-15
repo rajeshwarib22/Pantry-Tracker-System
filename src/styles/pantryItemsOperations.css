@@ -1,0 +1,64 @@
+/* src/components/PantryItemOperations.css */
+
+.pantry-container {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .add-item-form {
+    margin-bottom: 20px;
+  }
+  
+  .add-item-form input {
+    margin-right: 10px;
+    padding: 8px;
+  }
+  
+  
+  .search-bar {
+    margin-bottom: 20px;
+    padding: 8px;
+    width: 100%;
+  }
+  
+  .item-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .item-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  .pagination {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    padding: 8px 12px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+  
+  .pagination .active {
+    background-color: #007bff;
+    color: #fff;
+  }
+
+  .add-item-form select {
+    margin-right: 10px;
+    padding: 12px;
+  }
+  
