@@ -1,7 +1,6 @@
 import { signInWithEmailAndPassword } from "firebase/auth";
 import React, { useState } from "react";
 import { auth } from "./firebase"; // Ensure this import is correct
-// import SignInwithGoogle from "./signInWIthGoogle";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
 function Login() {
@@ -95,9 +94,9 @@ function Login() {
               <div class="about-card">
                 <h3>Track Inventory</h3>
                 <p>
-                  My Pantry Tracker is a free app that helps you keep your
-                  pantry organized by keeping a detailed inventory. You can keep
-                  track of quantity and expiration dates of your items.
+                  My Pantry Tracker helps you keep your pantry organized by
+                  keeping a detailed inventory. You can keep track of quantity
+                  and expiration dates of your items.
                 </p>
               </div>
             </div>
@@ -139,7 +138,6 @@ function Login() {
                     <p className="forgot-password text-right">
                       New user <a href="/register">Register Here</a>
                     </p>
-                    {/* <SignInwithGoogle /> */}
                   </form>
                 </div>
               </div>
