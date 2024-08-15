@@ -1,7 +1,7 @@
 import { signInWithEmailAndPassword } from "firebase/auth";
 import React, { useState } from "react";
 import { auth } from "./firebase"; // Ensure this import is correct
-import SignInwithGoogle from "./signInWIthGoogle";
+// import SignInwithGoogle from "./signInWIthGoogle";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
 function Login() {
@@ -139,7 +139,7 @@ function Login() {
                     <p className="forgot-password text-right">
                       New user <a href="/register">Register Here</a>
                     </p>
-                    <SignInwithGoogle />
+                    {/* <SignInwithGoogle /> */}
                   </form>
                 </div>
               </div>
