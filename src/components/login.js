@@ -92,11 +92,10 @@ function Login() {
             <h2>About</h2>
             <div class="feature-cards">
               <div class="about-card">
-                <h3>Track Inventory</h3>
                 <p>
-                  My Pantry Tracker helps you keep your pantry organized by
-                  keeping a detailed inventory. You can keep track of quantity
-                  and expiration dates of your items.
+                  PantryPulse helps you keep your groceries organized by keeping
+                  a detailed inventory. You can keep track of quantity and
+                  expiration dates of your items.
                 </p>
               </div>
             </div>
