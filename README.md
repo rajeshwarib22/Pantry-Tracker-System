@@ -31,6 +31,7 @@ Search and Sort items for better tracking
 
 Logout securely
 
+---
 
 🛠️ Future Enhancements
 
