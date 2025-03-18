@@ -135,7 +135,10 @@ function Login() {
                       </button>
                     </div>
                     <p className="forgot-password text-right">
-                      New user <a href="/register">Register Here</a>
+                      <a href="/forgotpassword">Forgot Password?</a>
+                    </p>
+                    <p className="forgot-password text-right">
+                      <a href="/register">Register Here</a>
                     </p>
                   </form>
                 </div>

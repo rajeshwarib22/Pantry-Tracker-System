@@ -11,6 +11,8 @@ import {
 import Login from "./components/login";
 import SignUp from "./components/register";
 import Profile from "./components/profile";
+import ForgotPassword from "./components/forgotpassword";
+
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { auth } from "./components/firebase";
@@ -50,6 +52,7 @@ function App() {
                 path="/profile"
                 element={user ? <Profile /> : <Navigate to="/login" />}
               />
+              <Route path="/forgotpassword" element={<ForgotPassword />} />
             </Routes>
             <ToastContainer />
           </div>

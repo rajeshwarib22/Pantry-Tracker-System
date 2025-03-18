@@ -8,6 +8,7 @@ import PantryItemOperations from "./pantryitemlistoperations";
 function Profile() {
   const [userDetails, setUserDetails] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [selectedComponent, setSelectedComponent] = useState(null);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -69,8 +70,26 @@ function Profile() {
               </ul>
             </div>
           </nav>
-          <div>
-            <PantryItemOperations />
+
+          {/* Main layout with sidebar and content area */}
+          <div className="main-container">
+            {/* Sidebar - 30% width */}
+            <div className="sidebar">
+              <button onClick={() => setSelectedComponent("pantry")}>
+                Show Pantry Items
+              </button>
+              {/* <button onClick={() => setSelectedComponent("shopping")}>
+                Show Shopping List
+              </button> */}
+            </div>
+
+            {/* Main Content - 70% width */}
+            <div className="content">
+              {selectedComponent === "pantry" && <PantryItemOperations />}
+              {/* {selectedComponent === "shopping" && (
+                <p>Shopping List Component</p>
+              )} */}
+            </div>
           </div>
         </>
       ) : (

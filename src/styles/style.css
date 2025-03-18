@@ -42,3 +42,45 @@
 .glyphicon-log-in {
   margin-right: 5px; /* Space between icon and text */
 }
+
+/*CSS for profile componenet*/
+.profile-wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container {
+  display: flex;
+  height: calc(100vh - 60px); /* Adjust based on navbar height */
+}
+
+.sidebar {
+  width: 30%;
+  background-color: #f4f4f4;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sidebar button {
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.sidebar button:hover {
+  background-color: #0056b3;
+}
+
+.content {
+  width: 70%;
+  padding: 20px;
+}
+
