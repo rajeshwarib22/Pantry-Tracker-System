@@ -1,5 +1,7 @@
 # 🥫 Pantry Tracker System  
 
+Website : https://pantry-tracker-system.vercel.app/ 
+
 A **Pantry Tracker System** built with **React.js** and **Firebase**, designed to help users efficiently manage their pantry items by adding, updating, deleting, and tracking inventory. 
 
 ## 🚀 Features  
@@ -22,12 +24,21 @@ A **Pantry Tracker System** built with **React.js** and **Firebase**, designed t
 
 🎯 Usage Guide
 Register/Login to access the system
+
 Add Pantry Items by entering the name, quantity, and expiration date
+
 Update or Delete existing pantry items
+
 Search and Sort items for better tracking
+
 Logout securely
 
+---
+
 🛠️ Future Enhancements
+
 🚀 Notify users when items are about to expire
+
 🚀 Add Multiple pantry List.
+
 🚀 Create a To-Do list 
