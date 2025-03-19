@@ -4,6 +4,8 @@ import { doc, getDoc } from "firebase/firestore";
 import { useNavigate } from "react-router-dom";
 import "../styles/style.css";
 import PantryItemOperations from "./pantryitemlistoperations";
+import logo from "../images/logo.png";
+// import RecipeGenerator from "./recipeGenerator";
 
 function Profile() {
   const [userDetails, setUserDetails] = useState(null);
@@ -56,7 +58,10 @@ function Profile() {
         <>
           <nav className="navbar navbar-inverse">
             <div className="container-fluid">
-              <div className="navbar-header">PantryPulse</div>
+              <div className="navbar-left">
+                <img src={logo} alt="Pantry Logo" className="logo" />
+                <span className="app-title">PantryPulse</span>
+              </div>
               <div className="navbar-header">
                 Welcome: {userDetails.firstName}
               </div>
@@ -71,24 +76,19 @@ function Profile() {
             </div>
           </nav>
 
-          {/* Main layout with sidebar and content area */}
           <div className="main-container">
-            {/* Sidebar - 30% width */}
             <div className="sidebar">
               <button onClick={() => setSelectedComponent("pantry")}>
                 Show Pantry Items
               </button>
-              {/* <button onClick={() => setSelectedComponent("shopping")}>
-                Show Shopping List
+              {/* <button onClick={() => setSelectedComponent("recipes")}>
+                Recipes
               </button> */}
             </div>
 
-            {/* Main Content - 70% width */}
             <div className="content">
               {selectedComponent === "pantry" && <PantryItemOperations />}
-              {/* {selectedComponent === "shopping" && (
-                <p>Shopping List Component</p>
-              )} */}
+              {/* {selectedComponent === "recipes" && <RecipeGenerator />} */}
             </div>
           </div>
         </>

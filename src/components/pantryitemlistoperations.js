@@ -23,6 +23,9 @@ const CATEGORIES = [
   "Snacks",
   "Breakfast",
   "Spices",
+  "Condements",
+  "Sauces",
+  "Canned Food",
   "Other",
 ];
 
