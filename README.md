@@ -15,7 +15,7 @@ A **Pantry Tracker System** built with **React.js** and **Firebase**, designed t
 ---
 
 ## 🛠️ Tech Stack  
-- **Frontend:** React.js, HTML, CSS  
+- **Frontend:** React.js,JavaScript, HTML, CSS  
 - **Backend:** Firebase Authentication, Firestore Database  
 - **Hosting:** Vercel
 - **Version Control:**  GitHub
